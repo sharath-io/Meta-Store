@@ -1,17 +1,72 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta name="author" content="Sharath Edulakanti">
-        <title>Signup | Meta-Store</title>
-        <link href="../css/project.css" rel="stylesheet">
-        <link href="https://atom-ui.netlify.app/css/main.css" rel="stylesheet">
-        <script src="https://kit.fontawesome.com/0b01ac136a.js" crossorigin="anonymous">
-        </script>
-    </head>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Sharath Edulakanti">
+    <title>Signup | Meta-Store</title>
+    <link href="../css/project.css" rel="stylesheet">
+    <link href="https://atom-ui.netlify.app/css/main.css" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/0b01ac136a.js" crossorigin="anonymous">
+    </script>
+</head>
+
 <body>
-    
+    <nav class="navigation" id="nav-id">
+        <div class="nav-brand">
+            <a href="../index.html" class="icon"><i class="fa fa-bolt meta-icon"></i></a>
+            Meta-Store
+        </div>
+
+        <ul class="list-non-bullet nav-list">
+            <li class="list-item-inline">
+                <a class="link link-active" href="../index.html">Home</a>
+            </li>
+            <li class="list-item-inline">
+                <a class="link" href="products.html">Products</a>
+            </li>
+            <li class="list-item-inline">
+                <a class="link" href="wishlist.html"><i class="fa fa-heart meta-icon"></i></a>
+            </li>
+            <li class="list-item-inline login">
+                <a class="link" href="cart.html"><i class="fa fa-shopping-cart meta-icon"></i></a>
+            </li>
+            <li class="list-item-inline">
+                <a class="link" href="login.html"><i class="fa fa-user meta-icon"></i></a>
+            </li>
+        </ul>
+    </nav>
+
+    <div class="login-content">
+        <div class="input-container">
+            <h2><i class="fa fa-bolt meta-icon"></i>Meta-Store</h2>
+            <div class="alert alert-primary">
+                <p>Meta is working on next level of authentication. Until then use our traditional
+                    logins</p>
+            </div>
+
+            <div>
+                <h2><a href="login.html">Login</a> / Signup</a></h2>
+            </div>
+            <label class="description">Name</label>
+            <input class="input-box" type="text" placeholder="Enter full name">
+            <label class="description">Number</label>
+            <input class="input-box" type="number" placeholder="Enter 10 digit number">
+            <label class="description">Mail Id</label>
+            <input class="input-box" type="mail" placeholder="Enter official mail id">
+            <label class="description">Set Password</label>
+            <input class="input-box" type="password" placeholder="Enter Password">
+            <label class="description">Type Password again</label>
+            <input class="input-box" type="password" placeholder="Enter Password again">
+            <input type="submit" value="Register" class="bt btn-primary">
+
+        </div>
+    </div>
+
+
+
 </body>
+
 </html>

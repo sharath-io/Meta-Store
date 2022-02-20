@@ -10,13 +10,8 @@
     width: 20rem;
 }
 
-.login-content a:hover {
-    margin-top: 1rem;
-    border: 0.15rem solid var(--secondary-color);
-    background-color: var(--star-fill);
-    padding: 0.5rem;
-    border-radius: 1rem;
-    font-weight: bold;
+.login-content a {
+    color: var(--primary-color);
     cursor: pointer;
 }
 
@@ -25,7 +20,8 @@
 }
 
 .login-content .input-container {
-    width: 20rem;
+    padding: 2rem;
+    width: 25rem;
     margin-left: 20rem;
     margin-right: 10rem;
     border-radius: 1rem;
