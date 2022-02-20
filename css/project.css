@@ -1,65 +1,65 @@
-.navigation {
-    background-color: var(--text-color) !important;
-    color: var(--secondary-color) !important;
-}
+ /* Id here is used for specificity */
+ 
+ #nav-id {
+     background-color: var(--text-color);
+     color: var(--secondary-color);
+ }
 
-.navigation .link {
-    color: var(--secondary-color) !important;
-}
+ .navigation .list-non-bullet .link {
+     color: var(--secondary-color);
+ }
 
+ .navigation .meta-icon {
+     color: var(--secondary-color);
+ }
 
+ .banner-img {
+     height: 40rem;
+     width: 100%;
+ }
 
-.navigation .meta-icon {
-    color: var(--secondary-color) !important;
-}
+ .fit {
+     object-fit: cover;
+     object-position: center;
+ }
 
-.banner-img {
-    height: 40rem;
-    width: 100%;
-}
+ .main-content {
+     position: relative;
+ }
 
-.fit {
-    object-fit: cover;
-    object-position: center;
-}
+ .text-overlap {
+     position: absolute;
+     top: 0;
+     left: 0;
+     right: 0;
+     bottom: 0;
+     background-color: var(--text-color);
+     opacity: 90%;
+     color: var(--secondary-color);
+     font-size: 3rem;
+     font-weight: bolder;
+ }
 
-.main-content {
-    position: relative;
-}
+ .categories {
+     text-align: center;
+     margin: 1rem;
+     font-size: 2rem;
+     font-weight: bold;
+ }
 
-.text-overlap {
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background-color: var(--text-color);
-    opacity: 90%;
-    color: var(--secondary-color);
-    font-size: 3rem;
-    font-weight: bolder;
-}
+ .card-container {
+     height: 70rem;
+     padding: 1rem;
+     display: flex;
+     justify-content: space-around;
+     flex-wrap: wrap;
+     background-color: var(--text-color) !important;
+ }
 
-.categories {
-    text-align: center;
-    margin: 1rem;
-    font-size: 2rem;
-    font-weight: bold;
-}
+ .card {
+     margin-top: 2rem;
+ }
 
-.card-container {
-    height: 70rem;
-    padding: 1rem;
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
-    background-color: var(--text-color) !important;
-}
-
-.card {
-    margin-top: 2rem;
-}
-
-.card .card-image {
-    height: 50%;
-}
+ .card .card-image {
+     height: 50%;
+ }
