@@ -1,5 +1,7 @@
- /* Id here is used for specificity */
+@import url("login.css");
+@import url("signup.css");
  
+ /* Id here is used for specificity */
  #nav-id {
      background-color: var(--text-color);
      color: var(--secondary-color);

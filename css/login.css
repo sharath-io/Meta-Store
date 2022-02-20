@@ -1,0 +1,33 @@
+.login-content .bt {
+    margin: 0rem;
+}
+
+.login-content .alert {
+    border: solid 0.15rem;
+    border-radius: 0.5rem;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    width: 20rem;
+}
+
+.login-content a:hover {
+    margin-top: 1rem;
+    border: 0.15rem solid var(--secondary-color);
+    background-color: var(--star-fill);
+    padding: 0.5rem;
+    border-radius: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.login-content {
+    margin: 10rem;
+}
+
+.login-content .input-container {
+    width: 20rem;
+    margin-left: 20rem;
+    margin-right: 10rem;
+    border-radius: 1rem;
+    background-color: var(--text-color);
+}
