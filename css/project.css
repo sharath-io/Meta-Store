@@ -1,0 +1,65 @@
+.navigation {
+    background-color: var(--text-color) !important;
+    color: var(--secondary-color) !important;
+}
+
+.navigation .link {
+    color: var(--secondary-color) !important;
+}
+
+
+
+.navigation .meta-icon {
+    color: var(--secondary-color) !important;
+}
+
+.banner-img {
+    height: 40rem;
+    width: 100%;
+}
+
+.fit {
+    object-fit: cover;
+    object-position: center;
+}
+
+.main-content {
+    position: relative;
+}
+
+.text-overlap {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: var(--text-color);
+    opacity: 90%;
+    color: var(--secondary-color);
+    font-size: 3rem;
+    font-weight: bolder;
+}
+
+.categories {
+    text-align: center;
+    margin: 1rem;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.card-container {
+    height: 70rem;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    background-color: var(--text-color) !important;
+}
+
+.card {
+    margin-top: 2rem;
+}
+
+.card .card-image {
+    height: 50%;
+}
