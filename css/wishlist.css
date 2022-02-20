@@ -1,0 +1,31 @@
+.wishlist-container {
+    height: auto;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    background-color: var(--text-color);
+}
+
+.wishlist-container .card-button {
+    margin-bottom: 2rem;
+}
+
+.wishlist-container .meta-icon {
+    color: var(--secondary-color);
+}
+
+.wishlist-container .card-image {
+    position: relative;
+}
+
+.wishlist-container .rating-container {
+    position: absolute;
+    width: 7rem;
+    height: 1rem;
+    padding: 0.5rem;
+    border: none;
+    bottom: 0;
+    left: -0.1rem;
+    font-size: 1rem;
+}
