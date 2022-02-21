@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Sharath Edulakanti">
+    <title>Cart | Meta-Store</title>
+    <link href="../css/project.css" rel="stylesheet">
+    <link href="https://atom-ui.netlify.app/css/main.css" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/0b01ac136a.js" crossorigin="anonymous">
+    </script>
+</head>
+
+<body>
+    <nav class="navigation" id="nav-id">
+        <div class="nav-brand">
+            <a href="../index.html" class="icon"><i class="fa fa-bolt meta-icon"></i></a>
+            Meta-Store
+        </div>
+
+        <ul class="list-non-bullet nav-list">
+            <li class="list-item-inline">
+                <a class="link" href="../index.html">Home</a>
+            </li>
+            <li class="list-item-inline">
+                <a class="link" href="products.html">Products</a>
+            </li>
+            <li class="list-item-inline">
+                <a class="link" href="wishlist.html"><i class="fa fa-heart meta-icon"></i></a>
+            </li>
+            <li class="list-item-inline login">
+                <a class="link link-active" href="cart.html"><i class="fa fa-shopping-cart meta-icon"></i></a>
+            </li>
+            <li class="list-item-inline">
+                <a class="link" href="login.html">login/signup</i></a>
+            </li>
+        </ul>
+    </nav>
+    <h2 class="center">My cart(2)</h2>
+
+    <main class="cart-section">
+
+        <!-- items added in the cart -->
+        <div class="cart-class">
+            <div class="card-container" id="card-id">
+                <div class="horizontal-card cart-shadow">
+                    <div class="card-image">
+                        <img src="../assets/quest1.jpg" alt="happy New Year">
+                    </div>
+                    <div class="horizontal-text">
+                        <div class="card-heading">
+                            Oculus Quest 1
+                        </div>
+                        <div class="price">
+                            <div class="mrp">MRP: <del>35999</del></div>
+                            <div class="deal">Deal: <span class="deal-price">30000</span></div>
+                        </div>
+                        <div class="center">
+                            <label>Quantity</label>
+                            <select>
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                                <option value="4">4</option>
+                            </select>
+                        </div>
+                        <div class="card-button">
+                            <button>Remove</button>
+                            <button class="card-buy">Add to wishlist</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card-container" id="card-id">
+                <div class="horizontal-card cart-shadow">
+                    <div class="card-image">
+                        <img src="../assets/headphones.jpg" alt="happy New Year">
+                    </div>
+                    <div class="horizontal-text">
+                        <div class="card-heading">
+                            Sony Headphones
+                        </div>
+                        <div class="price">
+                            <div class="mrp">MRP: <del>35999</del></div>
+                            <div class="deal">Deal: <span class="deal-price">30000</span></div>
+                        </div>
+                        <div class="center">
+                            <label>Quantity</label>
+                            <select>
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                                <option value="4">4</option>
+                            </select>
+                        </div>
+                        <div class="card-button">
+                            <button>Remove</button>
+                            <button class="card-buy">Add to wishlist</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="payment-section">
+            <div class="card-container">
+                <div class="text-only-card cart-shadow">
+                    <div class="card-heading">
+                        Total Cart value
+                    </div>
+                    <p class="description txt-left">Total Price: <span class="txt-right">60,000</span></p>
+                    <p class="description txt-left">Available discount on cart:<span class="txt-right">1500 off</span>
+                    </p>
+                    <p class="description txt-left">Delivery charges: <span class="txt-right">500</span</p>
+                    <p class="description txt-left">Subtotal: <span class="txt-right">58000 off</span</p>
+                    <div class="card-button">
+                       <button class="card-buy">Proceed to pay</button>
+                </div>
+            </div>
+        </div>
+    </main>
+</body>
+
+</html>

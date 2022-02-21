@@ -1,6 +1,7 @@
 @import url("login.css");
 @import url("wishlist.css");
 @import url("products.css");
+@import url("cart.css");
 
 :root{
     --secondary-background: #FFFFFF;
