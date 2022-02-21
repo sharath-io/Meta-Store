@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Sharath Edulakanti">
+    <title>Products | Meta-Store</title>
+    <link href="../css/project.css" rel="stylesheet">
+    <link href="https://atom-ui.netlify.app/css/main.css" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/0b01ac136a.js" crossorigin="anonymous">
+    </script>
+</head>
+
+<body>
+    <nav class="navigation" id="nav-id">
+        <div class="nav-brand">
+            <a href="../index.html" class="icon"><i class="fa fa-bolt meta-icon"></i></a>
+            Meta-Store
+        </div>
+
+        <ul class="list-non-bullet nav-list">
+            <li class="list-item-inline">
+                <a class="link" href="../index.html">Home</a>
+            </li>
+            <li class="list-item-inline">
+                <a class="link  link-active" href="products.html">Products</a>
+            </li>
+            <li class="list-item-inline">
+                <a class="link" href="wishlist.html"><i class="fa fa-heart meta-icon"></i></a>
+            </li>
+            <li class="list-item-inline login">
+                <a class="link" href="cart.html"><i class="fa fa-shopping-cart meta-icon"></i></a>
+            </li>
+            <li class="list-item-inline">
+                <a class="link" href="login.html">login/signup</i></a>
+            </li>
+        </ul>
+    </nav>
+
+    <main class="product-listing">
+        <section class="filters">
+            <h2>Filters</h2>
+
+            <!-- silder filters -->
+            <div class="filter-slider filter-class">
+                <span class="filter-label">Price</span>
+                <div class="slider-container">
+                    <div class="slider-values">
+                        <span>19k</span>
+                        <span>50k</span>
+                        <span>90k</span>
+                    </div>
+                    <input type="range" class="slider" min="19000" max="90000" value="79000">
+                </div>
+            </div>
+
+
+            <!-- category filters -->
+            <div class="filter-category  filter-class">
+                <span class="filter-label">Category</span>
+                <div>
+                    <input type="Checkbox">
+                    <label>Audio</label>
+                </div>
+                <div>
+                    <input type="checkbox">
+                    <label>Gaming</label>
+                </div>
+                <div>
+                    <input type="checkbox">
+                    <label>Audio & Video</label>
+                </div>
+                <div>
+                    <input type="checkbox">
+                    <label>Quest Accesories</label>
+                </div>
+            </div>
+
+            <div class="filter-sort  filter-class">
+                <span class="filter-label">Sort-by</span>
+                <div>
+                    <input type="radio">
+                    <label>Price: low-high</label>
+                </div>
+                <div>
+                    <input type="radio">
+                    <label>Price: high-low</label>
+                </div>
+                </div>
+            </div>
+
+
+            <!-- rating filter -->
+            <div class="filter-rating  filter-class">
+                <span class="filter-label">Rating</span>
+                <div>
+                    <input type="radio">
+                    <label>
+                        <i class="fa fa-star star-icon fill"></i>
+                        <i class="fa fa-star star-icon fill"></i>
+                    </label>
+                </div>
+                <div>
+                    <input type="radio">
+                    <label>
+                        <i class="fa fa-star star-icon fill"></i>
+                        <i class="fa fa-star star-icon fill"></i>
+                        <i class="fa fa-star star-icon fill"></i>
+                    </label>
+                </div>
+                <div>
+                    <input type="radio">
+                    <label>
+                        <i class="fa fa-star star-icon fill"></i>
+                        <i class="fa fa-star star-icon fill"></i>
+                        <i class="fa fa-star star-icon fill"></i>
+                        <i class="fa fa-star star-icon fill"></i>
+                    </label>
+                </div>
+                <div>
+                    <input type="radio">
+                    <label>
+                        <i class="fa fa-star star-icon fill"></i>
+                        <i class="fa fa-star star-icon fill"></i>
+                        <i class="fa fa-star star-icon fill"></i>
+                        <i class="fa fa-star star-icon fill"></i>
+                        <i class="fa fa-star star-icon fill"></i>
+                    </label>
+                </div>
+            </div>
+        </section>
+
+        <!-- product display section -->
+        <section>
+            <div class="product-container wishlist-container">
+                <div class="card">
+                    <div class="card-image">
+                        <img src="../assets/quest1.jpg" alt="Oculus">
+                        <span class="dismiss-card"><i class="fa fa-heart-o meta-icon"></i></span>
+                        <div class="rating-container">
+                            <i class="fa fa-star star-icon fill"></i>
+                            <i class="fa fa-star star-icon fill"></i>
+                            <i class="fa fa-star star-icon fill"></i>
+                            <i class="fa fa-star-o star-icon"></i>
+                            <i class="fa fa-star-o star-icon"></i>
+                        </div>
+                    </div>
+        
+                    <div class="card-heading">
+                        Oculus Quest 1
+                    </div>
+                    <p class="tag">VR</p>
+                    <div class="card-description">
+                        Begin you VR journey with Quest 1
+                    </div>
+                    <div class="price">
+                        <div class="mrp">MRP: <del>35999</del></div>
+                        <div class="deal">Deal: <span class="deal-price">30000</span></div>
+                    </div>
+                    <div class="card-button">
+                        <button>Add to Cart</button>
+                        <button class="card-buy">Buy Now</button>
+                    </div>
+                </div>
+        
+                <div class="card">
+                    <div class="card-image">
+                        <img src="../assets/quest2.jpg" alt="Oculus">
+                        <span class="dismiss-card"><i class="fa fa-heart-o meta-icon"></i></span>
+                        <div class="rating-container">
+                            <i class="fa fa-star star-icon fill"></i>
+                            <i class="fa fa-star star-icon fill"></i>
+                            <i class="fa fa-star star-icon fill"></i>
+                            <i class="fa fa-star star-icon fill"></i>
+                            <i class="fa fa-star-o star-icon"></i>
+                        </div>
+                    </div>
+                    <div class="card-heading">
+                        Oculus Quest 2
+                    </div>
+                    <p class="tag">VR</p>
+                    <div class="card-description">
+                        Begin you VR journey with Quest 2
+                    </div>
+                    <div class="price">
+                        <div class="mrp">MRP: <del>39999</del></div>
+                        <div class="deal">Deal: <span class="deal-price">35999</span></div>
+                    </div>
+                    <div class="card-button">
+                        <button>Add to Cart</button>
+                        <button class="card-buy">Buy Now</button>
+                    </div>
+                </div>
+        
+        
+                <div class="card">
+                    <div class="card-image">
+                        <img src="../assets/headphones.jpg" alt="Oculus">
+                        <span class="dismiss-card"><i class="fa fa-heart-o meta-icon"></i></span>
+                        <div class="rating-container">
+                            <i class="fa fa-star star-icon fill"></i>
+                            <i class="fa fa-star star-icon fill"></i>
+                            <i class="fa fa-star star-icon fill"></i>
+                            <i class="fa fa-star star-icon fill"></i>
+                            <i class="fa fa-star star-icon fill"></i>
+                        </div>
+                    </div>
+                    <div class="card-heading">
+                        Sony WH-1000XM4
+                    </div>
+                    <p class="tag">Sound</p>
+                    <div class="card-description">
+                        Industry Leading Wireless Headphones.
+                    </div>
+                    <div class="price">
+                        <div class="mrp">MRP: <del>29999</del></div>
+                        <div class="deal">Deal: <span class="deal-price">24999</span></div>
+                    </div>
+                    <div class="card-button">
+                        <button>Add to Cart</button>
+                        <button class="card-buy">Buy Now</button>
+                    </div>
+                </div>
+        
+                <div class="card">
+                    <div class="card-image">
+                        <img src="../assets/controller.jpg" alt="Oculus">
+                        <span class="dismiss-card"><i class="fa fa-heart-o meta-icon"></i></span>
+                        <div class="rating-container">
+                            <i class="fa fa-star star-icon fill"></i>
+                            <i class="fa fa-star star-icon fill"></i>
+                            <i class="fa fa-star star-icon fill"></i>
+                            <i class="fa fa-star star-icon fill"></i>
+                            <i class="fa fa-star-o star-icon"></i>
+                        </div>
+                    </div>
+                    <div class="card-heading">
+                        Touch Controller
+                    </div>
+                    <p class="tag">VR</p>
+                    <div class="card-description">
+                        You get Two touch controllers
+                    </div>
+                    <div class="price">
+                        <div class="mrp">MRP: <del>25999</del></div>
+                        <div class="deal">Deal: <span class="deal-price">20999</span></div>
+                    </div>
+                    <div class="card-button">
+                        <button>Add to Cart</button>
+                        <button class="card-buy">Buy Now</button>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-image">
+                        <img src="../assets/quest1.jpg" alt="Oculus">
+                        <span class="dismiss-card"><i class="fa fa-heart-o meta-icon"></i></span>
+                        <div class="rating-container">
+                            <i class="fa fa-star star-icon fill"></i>
+                            <i class="fa fa-star star-icon fill"></i>
+                            <i class="fa fa-star star-icon fill"></i>
+                            <i class="fa fa-star star-icon fill"></i>
+                            <i class="fa fa-star-o star-icon"></i>
+                        </div>
+                    </div>
+                    <div class="card-heading">
+                        Touch Controller
+                    </div>
+                    <p class="tag">VR</p>
+                    <div class="card-description">
+                        You get Two touch controllers
+                    </div>
+                    <div class="price">
+                        <div class="mrp">MRP: <del>25999</del></div>
+                        <div class="deal">Deal: <span class="deal-price">20999</span></div>
+                    </div>
+                    <div class="card-button">
+                        <button>Add to Cart</button>
+                        <button class="card-buy">Buy Now</button>
+                    </div>
+                </div>
+
+
+                <div class="card">
+                    <div class="card-image">
+                        <img src="../assets/quest2.jpg" alt="Oculus">
+                        <span class="dismiss-card"><i class="fa fa-heart-o meta-icon"></i></span>
+                        <div class="rating-container">
+                            <i class="fa fa-star star-icon fill"></i>
+                            <i class="fa fa-star star-icon fill"></i>
+                            <i class="fa fa-star star-icon fill"></i>
+                            <i class="fa fa-star star-icon fill"></i>
+                            <i class="fa fa-star-o star-icon"></i>
+                        </div>
+                    </div>
+                    <div class="card-heading">
+                        Touch Controller
+                    </div>
+                    <p class="tag">VR</p>
+                    <div class="card-description">
+                        You get Two touch controllers
+                    </div>
+                    <div class="price">
+                        <div class="mrp">MRP: <del>25999</del></div>
+                        <div class="deal">Deal: <span class="deal-price">20999</span></div>
+                    </div>
+                    <div class="card-button">
+                        <button>Add to Cart</button>
+                        <button class="card-buy">Buy Now</button>
+                    </div>
+                </div>
+
+
+                <div class="card">
+                    <div class="card-image">
+                        <img src="../assets/headphones.jpg" alt="Oculus">
+                        <span class="dismiss-card"><i class="fa fa-heart-o meta-icon"></i></span>
+                        <div class="rating-container">
+                            <i class="fa fa-star star-icon fill"></i>
+                            <i class="fa fa-star star-icon fill"></i>
+                            <i class="fa fa-star star-icon fill"></i>
+                            <i class="fa fa-star star-icon fill"></i>
+                            <i class="fa fa-star-o star-icon"></i>
+                        </div>
+                    </div>
+                    <div class="card-heading">
+                        Touch Controller
+                    </div>
+                    <p class="tag">VR</p>
+                    <div class="card-description">
+                        You get Two touch controllers
+                    </div>
+                    <div class="price">
+                        <div class="mrp">MRP: <del>25999</del></div>
+                        <div class="deal">Deal: <span class="deal-price">20999</span></div>
+                    </div>
+                    <div class="card-button">
+                        <button>Add to Cart</button>
+                        <button class="card-buy">Buy Now</button>
+                    </div>
+                </div>
+
+
+                <div class="card">
+                    <div class="card-image">
+                        <img src="../assets/controller.jpg" alt="Oculus">
+                        <span class="dismiss-card"><i class="fa fa-heart-o meta-icon"></i></span>
+                        <div class="rating-container">
+                            <i class="fa fa-star star-icon fill"></i>
+                            <i class="fa fa-star star-icon fill"></i>
+                            <i class="fa fa-star star-icon fill"></i>
+                            <i class="fa fa-star star-icon fill"></i>
+                            <i class="fa fa-star-o star-icon"></i>
+                        </div>
+                    </div>
+                    <div class="card-heading">
+                        Touch Controller
+                    </div>
+                    <p class="tag">VR</p>
+                    <div class="card-description">
+                        You get Two touch controllers
+                    </div>
+                    <div class="price">
+                        <div class="mrp">MRP: <del>25999</del></div>
+                        <div class="deal">Deal: <span class="deal-price">20999</span></div>
+                    </div>
+                    <div class="card-button">
+                        <button>Add to Cart</button>
+                        <button class="card-buy">Buy Now</button>
+                    </div>
+                </div>
+
+
+                <div class="card">
+                    <div class="card-image">
+                        <img src="../assets/quest1.jpg" alt="Oculus">
+                        <span class="dismiss-card"><i class="fa fa-heart-o meta-icon"></i></span>
+                        <div class="rating-container">
+                            <i class="fa fa-star star-icon fill"></i>
+                            <i class="fa fa-star star-icon fill"></i>
+                            <i class="fa fa-star star-icon fill"></i>
+                            <i class="fa fa-star star-icon fill"></i>
+                            <i class="fa fa-star-o star-icon"></i>
+                        </div>
+                    </div>
+                    <div class="card-heading">
+                        Touch Controller
+                    </div>
+                    <p class="tag">VR</p>
+                    <div class="card-description">
+                        You get Two touch controllers
+                    </div>
+                    <div class="price">
+                        <div class="mrp">MRP: <del>25999</del></div>
+                        <div class="deal">Deal: <span class="deal-price">20999</span></div>
+                    </div>
+                    <div class="card-button">
+                        <button>Add to Cart</button>
+                        <button class="card-buy">Buy Now</button>
+                    </div>
+                </div>
+        
+            </div>
+        
+            
+        </section>
+
+    </main>
+
+
+
+
+
+</body>
+
+</html>
