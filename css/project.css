@@ -5,18 +5,14 @@
 
 :root {
     --secondary-background: #FFFFFF;
+    --login-color: #2455f4;
 }
 
 /* nav bar css */
 /* Id here is used for specificity */
-#nav-id {
-    background-color: var(--text-color);
-    color: var(--primary-color);
+.navigation {
     border-bottom: 0.2rem solid var(--secondary-color);
-}
-
-.navigation .list-non-bullet .link {
-    color: var(--primary-color);
+    color: var(--text-color);
 }
 
 #nav-id .link-active {
@@ -24,11 +20,7 @@
     text-decoration: underline;
 }
 
-.navigation .meta-icon {
-    color: var(--primary-color);
-}
-
-#nav-id .link-active .meta-icon {
+.navigation .link-active .meta-icon {
     color: var(--secondary-color);
 }
 
@@ -89,4 +81,30 @@
 
 .card .card-image {
     height: 50%;
+}
+
+.footer {
+    background-color: var(--primary-color);
+    width: 100%;
+    height: 10rem;
+    list-style-type: none;
+    font-size: 1rem;
+    font-weight: bold;
+    color: var(--text-color);
+}
+
+.row {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.footer .row li {
+    list-style-type: none;
+}
+
+.navigation .list-non-bullet .login {
+    border: 0.02rem solid var(--secondary-color);
+    border-radius: 1rem;
+    padding: 0.5rem;
+    background-color: var(--login-color);
 }
