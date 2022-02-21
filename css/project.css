@@ -1,28 +1,44 @@
-@import url("login.css");
-@import url("wishlist.css");
-@import url("products.css");
-@import url("cart.css");
+@import url("page_styles/login.css");
+@import url("page_styles/wishlist.css");
+@import url("page_styles/products.css");
+@import url("page_styles/cart.css");
 
-:root{
+:root {
     --secondary-background: #FFFFFF;
 }
 
+/* nav bar css */
 /* Id here is used for specificity */
 #nav-id {
     background-color: var(--text-color);
-    color: var(--secondary-color);
+    color: var(--primary-color);
+    border-bottom: 0.2rem solid var(--secondary-color);
 }
 
 .navigation .list-non-bullet .link {
+    color: var(--primary-color);
+}
+
+#nav-id .link-active {
     color: var(--secondary-color);
+    text-decoration: underline;
 }
 
 .navigation .meta-icon {
+    color: var(--primary-color);
+}
+
+#nav-id .link-active .meta-icon {
     color: var(--secondary-color);
 }
 
+.meta-info {
+    color: var(--secondary-color);
+    font-weight: bolder;
+}
+
 .banner-img {
-    height: 40rem;
+    height: 30rem;
     width: 100%;
 }
 
