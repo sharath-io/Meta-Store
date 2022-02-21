@@ -1,0 +1,42 @@
+.product-listing {
+    display: flex;
+    width: 100%;
+}
+
+.filters {
+    margin: 2rem;
+    position: sticky;
+    width: 20%;
+}
+
+.filter-label {
+    font-size: 1.4rem;
+    font-weight: bolder;
+}
+
+.filter-slider .slider {
+    width: 7rem;
+    border-radius: 10%;
+}
+
+.filters .slider-values {
+    margin-top: 1rem;
+    padding: 0.2rem;
+    width: 7rem;
+}
+
+.filter-class {
+    margin: 2rem;
+}
+
+.filter-class input {
+    margin: 0.5rem;
+}
+
+.product-container {
+    background-color: var(--secondary-background);
+}
+
+.product-container .meta-icon {
+    color: var(--primary-color);
+}

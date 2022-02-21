@@ -4,7 +4,8 @@
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
-    background-color: var(--text-color);
+    background-color: var(--secondary-background);
+    margin: 1rem;
 }
 
 .wishlist-container .card-button {

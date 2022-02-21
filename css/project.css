@@ -1,5 +1,10 @@
 @import url("login.css");
 @import url("wishlist.css");
+@import url("products.css");
+
+:root{
+    --secondary-background: #FFFFFF;
+}
 
 /* Id here is used for specificity */
 #nav-id {
